@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー | F1 Fun Fact (F1雑学・対話アシスタント)</title>
+    <style>
+        :root {
+            --primary-color: #E10600;
+            --bg-color: #F8F9FA;
+            --card-bg: #FFFFFF;
+            --text-color: #212529;
+            --sub-text: #6C757D;
+            --border-color: #E9ECEF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: #FFFFFF;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-top: 1.8rem;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #FFE2E0;
+            color: var(--primary-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.85rem;
+            color: var(--sub-text);
+            border-top: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🏎️ F1 Fun Fact プライバシーポリシー</h1>
+        <p>F1雑学・対話アシスタント アプリケーション</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <span class="badge">最終更新日: 2026年3月18日</span>
+
+            <p>「F1 Fun Fact」（以下、「当アプリ」といいます）は、ユーザーのプライバシー保護を非常に重視しています。本プライバシーポリシーでは、当アプリにおける情報の取り扱い方針について説明します。</p>
+
+            <h2>1. 取得する情報およびその利用目的</h2>
+            
+            <h3>(1) ユーザーの個人情報について</h3>
+            <p>当アプリは、氏名、メールアドレス、電話番号、住所、位置情報、端末固有識別子（IMEI等）などの<strong>個人情報を一切収集・取得いたしません</strong>。</p>
+
+            <h3>(2) AI機能（Gemini API）の利用とAPIキーの取り扱い</h3>
+            <ul>
+                <li>当アプリでは、生成AI対話機能をご利用いただく際、ユーザーご自身が発行された Google Gemini API キー（BYOK: Bring Your Own Key）を入力していただく仕組みを採用しています。</li>
+                <li><strong>APIキーの保存:</strong> 入力されたAPIキーはユーザーの端末内（SharedPreferences）にのみ安全にローカル保存されます。当開発者や第三者の外部サーバーに送信・収集されることは一切ありません。</li>
+                <li><strong>AI対話データの送信:</strong> AIモードをONにして質問を送信された場合、入力されたテキスト質問文およびアプリ内の公式記録データ（RAGプロンプト）のみが Google Gemini API サーバーへ直接送信されます。</li>
+            </ul>
+
+            <h3>(3) ローカルデータベースの利用</h3>
+            <p>当アプリに収録されている F1 の歴史データ（1950〜2026年）はすべてアプリ本体（端末内ローカルアセット）に格納されています。オフライン（爆速ローカルモード）での検索時には一切の外部通信を行いません。</p>
+
+            <h2>2. 第三者への情報提供および外部送信</h2>
+            <p>当アプリは、法令に基づく場合を除き、ユーザーの許可なく第三者に情報を送信・提供することはありません。</p>
+
+            <h2>3. 免責事項 (Disclaimer)</h2>
+            <ol>
+                <li>当アプリは、F1（Formula 1）ファンのための非公式雑学・分析アプリケーションです。Formula One Licensing B.V.、Formula One Group、FIA（国際自動車連盟）および各F1チーム・ドライバーとは一切関係・提携関係にありません。</li>
+                <li>当アプリ内に記載されている F1 の公式記録データおよび AI の回答内容については、正確性の維持に努めておりますが、内容の完全性・正確性を保証するものではありません。当アプリの利用によって生じた損害等について、開発者は一切の責任を負いかねます。</li>
+            </ol>
+
+            <h2>4. お問い合わせ・プライバシーポリシーの変更</h2>
+            <p>本プライバシーポリシーの内容についてご質問がある場合は、アプリ内のサポート窓口よりご連絡ください。本ポリシーは、法令の変更やサービスの更新に伴い、予告なく改定されることがあります。</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 F1 Fun Fact. All Rights Reserved. (Unofficial Fan Application)
+    </footer>
+
+</body>
+</html>
